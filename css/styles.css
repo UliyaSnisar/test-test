@@ -1,0 +1,121 @@
+ul {
+  list-style: none;
+}
+
+.progress-bar {
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  width: 800px;
+  height: 150px;
+  background: rgb(136, 200, 236);
+  border: 1px solid;
+  border-radius: 4px;
+  box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.3);
+  margin-bottom: 150px;
+}
+
+.progress {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 20px;
+  background-color: rgb(180, 222, 247);
+  border: 1px solid;
+  border-radius: 4px;
+  box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.3);
+}
+
+.progress-run {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(8, 80, 236);
+}
+
+.table {
+  display: table;
+  width: 1200px;
+  border: 1px solid rgb(196, 193, 193);
+  border-radius: 4px;
+  box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.filter {
+  display: table-caption;
+  padding: 15px;
+}
+
+.label {
+  margin-right: 5px;
+}
+
+.filter-input {
+  width: 1000px;
+  height: 30px;
+  border: 1px solid rgb(196, 193, 193);
+  border-radius: 2px;
+  box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.3);
+}
+
+.table-btn {
+  border: 1px solid;
+  border-radius: 2px;
+  box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.3);
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  height: 30px;
+}
+
+.thead {
+  display: table-header-group;
+}
+
+.tbody {
+  display: table-row-group;
+}
+
+.row {
+  display: table-row;
+}
+
+.cell {
+  border-bottom: 1px solid rgb(196, 193, 193);
+  display: table-cell;
+}
+
+.checkbox {
+  border: 4px solid rgb(196, 193, 193);
+  border-radius: 2px;
+  box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.3);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.paid {
+  display: inline-block;
+  border-radius: 20px;
+  background-color: rgb(219, 219, 219);
+  padding: 4px;
+}
+
+.pending {
+  display: inline-block;
+  border-radius: 20px;
+  background-color: rgb(253, 205, 159);
+  padding: 4px;
+}
+
+.unfulfilled {
+  display: inline-block;
+  border-radius: 20px;
+  background-color: rgb(253, 205, 159);
+  padding: 4px;
+}
